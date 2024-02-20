@@ -1,0 +1,14 @@
+name: diffusion-experiments
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.13
+  - git
+  - cudatoolkit=11.7
+  - cudnn=8.1
+  - anaconda
+  - pip
+  - pip:
+    - --extra-index-url https://download.pytorch.org/whl/cu117
+    - -r requirements.txt
