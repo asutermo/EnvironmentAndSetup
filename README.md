@@ -16,4 +16,9 @@ I didn't want to use Docker Desktop, and chose to use docker exclusively in my W
 
 ## ML
 
-Here's an environment that works pretty well for most of the present HuggingFace and LyCORIS libraries. This has not been tested with StableCascade or LyCORIS 2.1
+Here's an environment that works pretty well for most of the present HuggingFace and LyCORIS libraries. This has not been tested with StableCascade or LyCORIS 2.1. You'll need to install Anaconda.
+
+```bash
+wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
+bash ./Anaconda3-2023.09-0-Linux-x86_64.sh
+```
